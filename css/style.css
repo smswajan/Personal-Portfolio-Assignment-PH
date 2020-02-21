@@ -43,6 +43,14 @@ a.btn-hire {
   color: white;
   font-weight: 700;
 }
+.btn-sub {
+  text-decoration: none;
+  background: linear-gradient(45deg, #ec4f8f, #ed4b70);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
 
 .img-fluid {
   width: 100%;
@@ -107,4 +115,8 @@ p.client-says {
 }
 a.swajan:hover {
   text-decoration: none;
+}
+
+.form-control:focus {
+  border: 2px solid #ec4c79;
 }
