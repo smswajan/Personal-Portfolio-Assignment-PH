@@ -63,3 +63,48 @@ section.work {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Footer Section */
+section.footer {
+  background-image: url("../img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+h4.client {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 900px;
+  color: white;
+  text-align: center;
+}
+p.client-says {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-top: 26px;
+  text-align: center;
+}
+.bg-blue {
+  background-color: #4b5dffe7;
+  border-radius: 5px;
+}
+.carousel-item {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bg-pink {
+  background-color: #ec4c79;
+  padding: 50px 100px;
+  border-radius: 5px;
+  margin-top: 28px;
+}
+a.swajan:hover {
+  text-decoration: none;
+}
