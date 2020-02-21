@@ -1,0 +1,65 @@
+/* Initial common properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+section.header {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.margin-top {
+  margin-top: 90px;
+}
+
+h1 {
+  font-family: "Poppins";
+}
+
+h1.sjn {
+  color: #ec4c7a;
+  font-family: "Anton";
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+p.descp {
+  color: #707070;
+}
+
+/* Hire Button */
+a.btn-hire {
+  text-decoration: none;
+  background: linear-gradient(45deg, #ec4f8f, #ed4b70);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.img-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+/* biography */
+section.biography {
+  background-image: url("../img/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  font-weight: bold;
+}
+/* Latest Work */
+section.work {
+  background-image: url("../img/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
